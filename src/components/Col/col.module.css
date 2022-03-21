@@ -1,0 +1,73 @@
+
+.col-base {
+    background: tomato;
+    padding: 5px;
+    height: 50px;
+    margin: 5px;
+    
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.col-1 {
+    composes: col-base;
+    width: 6.333333%;
+}
+
+.col-2 {
+    composes: col-base;
+    width: 14.666667%;
+}
+
+.col-3 {
+    composes: col-base;
+    width: 23%;
+}
+
+.col-4 {
+    composes: col-base;
+    width: 31.333333%;
+}
+
+.col-5 {
+    composes: col-base;
+    width: 39.666667%;
+}
+
+.col-6 {
+    composes: col-base;
+    width: 48%;
+}
+
+.col-7 {
+    composes: col-base;
+    width: 56.333333%;
+}
+
+.col-8 {
+    composes: col-base;
+    width: 64.666667%;
+}
+
+.col-9 {
+    composes: col-base;
+    width: 73%;
+}
+
+.col-10 {
+    composes: col-base;
+    width: 81.333333%;
+}
+
+.col-11 {
+    composes: col-base;
+    width: 89.666667%;
+}
+
+.col-12 {
+    composes: col-base;
+    width: 100%;
+}

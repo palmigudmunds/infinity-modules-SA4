@@ -1,0 +1,26 @@
+.date-picker-container {
+    display: inline-block;
+    border-radius: 10%;
+    padding: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    width: 200px;
+    height: 200px;
+}
+
+.date-picker-day {
+    font-size: 50px;
+}
+.date-picker-month {
+    font-size: 50px;
+}
+.date-picker-year {
+    font-size: 50px;
+}
+
+input[type="date"] { 
+    background: transparent;
+    color: blue;
+  }

@@ -1,0 +1,48 @@
+
+.parent {
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.carouselimg {
+    display: inline-block;
+    border-radius: 10%;
+    padding: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+}
+
+.carouselimg-small {
+    composes: carouselimg;
+    width: 100px;
+    height: 100px;
+}
+
+.carouselimg-medium {
+    composes: carouselimg;
+    width: 200px;
+    height: 200px;
+}
+
+.carouselimg-large {
+    composes: carouselimg;
+    width: 300px;
+    height: 300px;
+}
+
+.button-1 {
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}

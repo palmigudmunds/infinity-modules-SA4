@@ -1,0 +1,36 @@
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 { color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 50px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+h2 { color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 40px; 
+    font-weight: 400; 
+    line-height: 32px; 
+}
+
+.button-default {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
